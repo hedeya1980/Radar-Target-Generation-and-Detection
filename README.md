@@ -12,6 +12,6 @@
 - **Steps taken to suppress the non-thresholded cells at the edges:**
   - This was achieved as follows:
     1. Properly choosing the start and end values of the for loops as follows:
-      - Range: "Tr+Gr+1" to "m-(Gr+Tr)"
-      - Doppler: "Td+Gd+1" to "n-(Gd+Td)"
+        - Range: "Tr+Gr+1" to "m-(Gr+Tr)"
+        - Doppler: "Td+Gd+1" to "n-(Gd+Td)"
     2. Initializing the signal\_cfar variable to zeros, and setting only the locations where the signal is more than the threshold to 1.
