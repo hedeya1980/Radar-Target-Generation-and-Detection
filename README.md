@@ -1,3 +1,5 @@
+## Radar Target Generation and Detection (Sensor Fusion Nanodegree)
+
 - **Implementation steps for the 2D CFAR process:**
   - Sliding the CUT across the locations of the RDM matrix, while keeping the training and guard margins. This was achieved by the for loops on lines 192:195.
   - Updating the noise level from the signal values on the training cells.
